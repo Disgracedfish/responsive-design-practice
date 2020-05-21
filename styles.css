@@ -130,7 +130,8 @@
             width: 100%;
         }
         .col-bg {
-            padding: 1em 0 1em 1em;
+            padding: 1em;
+            width: 90%;
         }
 
         p {
