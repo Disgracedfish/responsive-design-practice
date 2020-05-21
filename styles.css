@@ -1,0 +1,158 @@
+    
+
+    body {
+        font-size: 1.125rem;
+        color: #707070;
+        margin:0;
+    }
+
+    /*Typography*/
+    header {
+        background-color:#212614;
+        padding: 1em;
+        color: #fff;
+    }
+
+    header h1 {
+        color: #fff;
+        font-family: 'Lora', serif;
+        font-weight: 400;
+        margin:0;
+    }
+
+    .subtitle {
+        font-weight: 700;
+        font-size: 0.75rem;
+        margin: 0;
+    }
+
+    h1 {
+        font-size:3rem;
+        color: #212614;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h1 span {
+        color: #b7832f;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    nav li {
+        margin-left:2em;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #707070;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: #1792d2;
+    }
+
+    .current-page {
+        border-bottom: 1px solid #707070;
+    }
+
+    .current-page:hover {
+        color: #707070;
+    }
+
+    /*Layout */
+    .container {
+        max-width: 980px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-header {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .columns {
+        display: flex;
+        margin: 1em 0;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .col-1 {
+        width: 20%;
+    }
+
+    .col-2 {
+        width: 45%;
+    }
+
+    .col-3 {
+        width: 70%;
+
+    }
+
+
+    .col-bg {
+        background-color: #212614;
+        padding: 1em;
+        color: #fff;
+    }
+
+
+    @media (max-width:765px) {
+        .columns {
+            flex-direction: column;
+            justify-content: left;
+        }
+
+        .col-1, .col-2, .col-3 {
+            width: 100%;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .container-header {
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav ul {
+            flex-direction: column;
+        }
+
+        nav li {
+            margin: 0.5em 0;
+         
+        }
+
+        
+    }
+
+
+  
